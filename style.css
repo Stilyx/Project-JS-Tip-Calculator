@@ -60,6 +60,11 @@ body {
 .input-content input::placeholder {
   color: #547878;
 }
+
+.input-content input:focus {
+  outline-color: #547878;
+}
+
 .input-content img {
   position: absolute;
   top: 42px;
