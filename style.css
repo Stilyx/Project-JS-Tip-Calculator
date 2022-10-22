@@ -109,6 +109,9 @@ body {
   color: #547878;
 }
 
+.buttons-price input:focus {
+  outline-color: #547878;
+}
 .getresult {
   background-color: #00474b;
   width: 413px;
@@ -206,5 +209,11 @@ small {
   }
   .getresult {
     width: 327px;
+  }
+  .custom-error {
+    color: red;
+    position: absolute;
+    bottom: -40px;
+    display: none;
   }
 }
