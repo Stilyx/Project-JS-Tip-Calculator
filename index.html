@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/858d6c2453.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <img src="images/SPLITTER.png" alt="logo-title" class="logo-title" />
+    <main class="container">
+      <section class="do-result">
+        <div class="input-content">
+          <div class="invalid">
+            <label for="Bill" class="labels" id="bill">Bill</label>
+            <p class="error-message" id="bill-error">Can't be zero</p>
+          </div>
+          <input type="number" name="Bill-price" id="Bill" placeholder="0" />
+          <img src="images/$.png" alt="$" />
+        </div>
+        <div class="select-values">
+          <p class="labels">Select Tip %</p>
+
+          <div class="buttons-price">
+            <button class="porcetage" value="5">5%</button>
+            <button class="porcetage" value="10">10%</button>
+            <button class="porcetage" value="15">15%</button>
+            <button class="porcetage" value="25">25%</button>
+            <button class="porcetage" value="50">50%</button>
+            <input type="text" name="custom-price" id="custom" placeholder="Custom" maxlength="3" class="custom" />
+            <small class="small-error">Enter a number between 1-100 and no letters</small>
+          </div>
+        </div>
+        <div class="input-content">
+          <div class="invalid">
+            <label for="people" class="labels">Number of People</label>
+            <p class="error-message" id="people-error">Can't be zero</p>
+          </div>
+          <input type="number" name="people" id="people" placeholder="0" />
+          <img src="images/person-emoji.png" alt="" />
+        </div>
+      </section>
+      <section class="getresult">
+        <div class="tip-result">
+          <div class="tip-amount-content">
+            <p class="tip-value">Tipe Amount</p>
+            <small>/ person</small>
+          </div>
+          <p class="tipe-amount value">$0.00</p>
+        </div>
+        <div class="tip-result">
+          <div class="tip-amount-content">
+            <p class="tip-value">Total</p>
+            <small>/ person</small>
+          </div>
+          <p class="total value">$0.00</p>
+        </div>
+
+        <button class="reset">RESET</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
