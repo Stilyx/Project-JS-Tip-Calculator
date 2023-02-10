@@ -1,43 +1,25 @@
-<h1 align="center">
-Front-end Mentor Challenge
-</h1>
+- Desktop
+
+![Tip-Calculator-project](https://user-images.githubusercontent.com/109632184/217969746-41a47bd4-a3be-459e-8ace-496662e4be96.png)
+
+- Mobile 
+
+![Tip-Calculator-mobilepng](https://user-images.githubusercontent.com/109632184/217970025-76ced855-012e-4fb2-88bb-9490eee77fb6.png)
 
 
-<h3>
+<h1 align="center">Tip Calculator Card</h1>
 
-- Desktop version
+<h2>Inspiração do Desafio</h2>
 
-</h3>
+- <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX" target="_blank">Mentor Challenge</a>
 
+<h2>Técnologias Utilizadas</h2>
 
-![desktop version](https://user-images.githubusercontent.com/109632184/197356357-b3d1621e-43c1-4201-ada4-b9712c572c7c.png)
-
-
-<h3>
-
-- Desktop Error Version
-
-</h3
-
-![desktop-version-error](https://user-images.githubusercontent.com/109632184/197356417-b39ade9d-b013-4dec-aa90-4422b55f3980.png)
+- HTML
+- CSS
+- Javascript
 
 
-<h3>
-
-- Mobile Versions Part 1 
-
-</h3>
-
-![mobile-version-part1](https://user-images.githubusercontent.com/109632184/197356502-0edc8fff-a900-4840-9458-0d83e0f6895d.png)
-
-<h3>
-
-- Mobile Versions Part 2
-
-</h3>
-
-
-![mobile-version-part2](https://user-images.githubusercontent.com/109632184/197356520-6455aae0-d2f2-4a51-a93a-df04307ef632.png)
 
 
 
